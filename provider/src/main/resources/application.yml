@@ -1,0 +1,7 @@
+dubbo:
+  application:
+    name: provider
+  registry:
+    address: zookeeper://192.168.148.131:2181
+  scan:
+    base-packages: com.example.ticket.service
